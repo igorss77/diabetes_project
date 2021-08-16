@@ -1,8 +1,13 @@
 # diabetes_project
 
 # Descrição
-Diabetes é uma doença causada pela produção insuficiente ou má absorção de insulina, hormônio que regula a glicose no sangue e garante energia para o organismo [1] .O projeto busca classificar se o paciente terá ou não diabetes com base em variáveis como por exemplo, obesidade, gênero, idade, polifagia e polidipsia. Um dicionário com o significado de cada variáveis está no disponível no documento `diabetes.rtf`.
+Diabetes é uma doença causada pela produção insuficiente ou má absorção de insulina, hormônio que regula a glicose no sangue e garante energia para o organismo [1] .O projeto tem como objetivo desenvolver um modelo para classificar se o paciente terá ou não diabetes, com base em variáveis como por exemplo, obesidade, gênero, idade, polifagia e polidipsia. Um dicionário com o significado de cada variáveis está no disponível no documento `diabetes.rtf`.
 # Como utilizar
+No terminal clone o repositório
+
+utilize o comando 
+conda env create -f environment.yml
+
 
 # Estrutura do projeto
 

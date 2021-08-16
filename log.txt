@@ -1,0 +1,3 @@
+2021-08-16 08:40:51 INFO     O dataset possui 520 linhas e 17 colunas
+2021-08-16 08:40:51 INFO     Transformando colunas para o formato de dummies
+2021-08-16 08:40:51 INFO     A média de idade dos pacientes positivos é 49 anos
