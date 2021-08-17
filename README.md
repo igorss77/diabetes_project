@@ -10,7 +10,7 @@ Para acessar o notebook, digite `jupyter notebook` com a env instalada e abra a 
 
 
 # Estrutura do projeto
-
+```
 - data
 |- diabetes_data_upload.csv  # base de dados
 
@@ -27,7 +27,7 @@ Para acessar o notebook, digite `jupyter notebook` com a env instalada e abra a 
 - environment.yml # environment com as bibliotecas necessárias
 - main.py # módulo principal de execução para treino do modelo
 - data_preparation # módulo com funções necessárias ao código
-
+```
 # Performance do modelo
 
 O modelo desenvolvido obteve foi capaz de acertar o diagnóstico em 92% dos pacientes avaliados. 
