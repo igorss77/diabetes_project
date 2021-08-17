@@ -1,3 +1,58 @@
-2021-08-16 08:40:51 INFO     O dataset possui 520 linhas e 17 colunas
-2021-08-16 08:40:51 INFO     Transformando colunas para o formato de dummies
-2021-08-16 08:40:51 INFO     A média de idade dos pacientes positivos é 49 anos
+2021-08-16 21:29:22 INFO     O dataset possui 520 linhas e 17 colunas
+2021-08-16 21:29:22 INFO     Transformando colunas para o formato de dummies
+2021-08-16 21:29:22 INFO     A média de idade dos pacientes positivos é de 49 anos
+2021-08-16 21:29:23 INFO     No teste com o "chi-quadrado", as variáveis selecionadas foram ['Polydipsia', 'Polyuria', 'Gender_Female', 'sudden weight loss', 'partial paresis', 'Irritability', 'Polyphagia', 'Alopecia', 'visual blurring', 'weakness', 'Genital thrush']
+2021-08-16 21:29:23 INFO     Iniciando GridSearch
+2021-08-16 21:30:25 INFO     GridSearch e treino do modelo finalizado
+2021-08-16 21:30:25 INFO                   precision    recall  f1-score   support
+
+    negative       0.86      0.93      0.89        54
+    positive       0.96      0.92      0.94       102
+
+    accuracy                           0.92       156
+   macro avg       0.91      0.92      0.92       156
+weighted avg       0.93      0.92      0.92       156
+
+2021-08-16 21:30:25 INFO     Salvando modelo treinado
+2021-08-16 21:30:25 INFO     Variáveis mais importantes no modelo                            0
+Polyuria            0.285935
+Polydipsia          0.228894
+Gender_Female       0.121463
+sudden weight loss  0.099738
+partial paresis     0.065068
+Irritability        0.049407
+Alopecia            0.043328
+visual blurring     0.029450
+Polyphagia          0.027086
+Genital thrush      0.025224
+weakness            0.024406
+2021-08-16 21:30:25 INFO     Tempo de execução:62.71831941604614 segundos
+2021-08-16 21:39:11 INFO     O dataset possui 520 linhas e 17 colunas
+2021-08-16 21:39:11 INFO     Transformando colunas para o formato de dummies
+2021-08-16 21:39:11 INFO     A média de idade dos pacientes positivos é de 49 anos
+2021-08-16 21:39:12 INFO     No teste com o "chi-quadrado", as variáveis selecionadas foram ['Polydipsia', 'Polyuria', 'Gender_Female', 'sudden weight loss', 'partial paresis', 'Irritability', 'Polyphagia', 'Alopecia', 'visual blurring', 'weakness', 'Genital thrush']
+2021-08-16 21:39:12 INFO     Iniciando GridSearch
+2021-08-16 21:40:28 INFO     GridSearch e treino do modelo finalizado
+2021-08-16 21:40:28 INFO                   precision    recall  f1-score   support
+
+    negative       0.86      0.93      0.89        54
+    positive       0.96      0.92      0.94       102
+
+    accuracy                           0.92       156
+   macro avg       0.91      0.92      0.92       156
+weighted avg       0.93      0.92      0.92       156
+
+2021-08-16 21:40:28 INFO     Salvando modelo treinado
+2021-08-16 21:40:28 INFO     Variáveis mais importantes no modelo                            0
+Polyuria            0.285935
+Polydipsia          0.228894
+Gender_Female       0.121463
+sudden weight loss  0.099738
+partial paresis     0.065068
+Irritability        0.049407
+Alopecia            0.043328
+visual blurring     0.029450
+Polyphagia          0.027086
+Genital thrush      0.025224
+weakness            0.024406
+2021-08-16 21:40:28 INFO     Tempo de execução:76.92855334281921 segundos
