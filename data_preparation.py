@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 def columns_to_dummies(df):
     """
     Essa função altera os labels das colunas de string para valores binários.
-    O campo "Gender" é tranformado com a função "get_dummies"
+    O campo "Gender" é transformado com a função "get_dummies"
 
     Parameters
     ----------

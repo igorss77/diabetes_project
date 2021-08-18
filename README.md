@@ -17,6 +17,7 @@ Para acessar o notebook, digite `jupyter notebook` com a env instalada e abra a 
 - figures  # princpais gráficos 
 - docs
 |- Diabetes.rtf  # dicionário de dados
+|- Early stage diabetes – risk predictions # apresentação para stakeholders
 
 - models
 |- model.pkl  # modelo desenvolvido
