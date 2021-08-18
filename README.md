@@ -4,9 +4,9 @@
 Diabetes é uma doença causada pela produção insuficiente ou má absorção de insulina, hormônio que regula a glicose no sangue e garante energia para o organismo [1] .O projeto tem como objetivo desenvolver um modelo para classificar se o paciente terá ou não diabetes, com base em variáveis como por exemplo, obesidade, gênero, idade, polifagia e polidipsia. Um dicionário com o significado de cada variáveis está no disponível no documento `diabetes.rtf`.
 # Como utilizar
 No terminal bash,  clone o repositório da seguinte forma via url `git clone https://github.com/igorss77/diabetes_project.git` no seu diretório.
-Em seguida, utilizando em um terminal com anaconda instalado, instale o environment do projeto com o seguinte comando `conda env create -f environment.yml`.
-Ative o environment e execute `python main.py`para que o código do projeto seja executado.
-Para acessar o notebook, digite `jupyter notebook` com a env instalada e abra a pasta `notebooks` e abra o notebook `diabetes_project.ipynb`.
+Em seguida, utilizando um terminal com anaconda instalado, instale o environment do projeto com o seguinte comando `conda env create -f environment.yml`.
+Ative o environment e use o comando `python main.py`para que o código do projeto seja executado.
+Para acessar o notebook, digite `jupyter notebook` com a env instalada e abra a pasta `notebooks` com o notebook `diabetes_project.ipynb`.
 
 
 # Estrutura do projeto
@@ -31,7 +31,7 @@ Para acessar o notebook, digite `jupyter notebook` com a env instalada e abra a 
 ```
 # Performance do modelo
 
-O modelo desenvolvido obteve foi capaz de acertar o diagnóstico em 92% dos pacientes avaliados. 
+O modelo desenvolvido foi capaz de acertar o diagnóstico em 92% dos pacientes avaliados. 
 
 # Referências
 
